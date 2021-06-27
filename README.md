@@ -16,7 +16,7 @@ Project is created with:
 * Spring Boot
 * Gradle
 * Lombok
- *PostgreSQL Database
+* PostgreSQL Database
 
 ## End Points
 User-controller:
