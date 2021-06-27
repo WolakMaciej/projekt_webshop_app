@@ -6,6 +6,7 @@
 * [End Points](#end-points)
 * [Clone](#clone)
 * [Account](#account)
+* [Heroku](#heroku)
 
 ## General info
 Simple web shop with user registration and managemet options.
@@ -66,6 +67,9 @@ password: admin123
 
 login: User
 password: user1234
+
+## Heroku
+https://webshopwolakm.herokuapp.com/products
 
 ## Author
 
