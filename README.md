@@ -69,7 +69,7 @@ login: User
 password: user1234
 
 ## Heroku
-https://webshopangular2.herokuapp.com/ (404 request)
+https://webshopwolakm.herokuapp.com/products
 
 ## Author
 
