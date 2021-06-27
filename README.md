@@ -16,7 +16,7 @@ Project is created with:
 * Spring Boot
 * Gradle
 * Lombok
-* PostgreSQL Database
+* PostgreSQL Database or H2
 
 ## End Points
 User-controller:
@@ -60,6 +60,14 @@ To get started you can simply clone this repository using git:
 git https://github.com/WolakMaciej/projekt_webshop_app.git
 
 ```
+To use local database in application.yml file uncomment:
+ * url: "jdbc:h2:file:./data/webshopDb"
+ 
+ and comment:
+ * #username: ${JDBC_DATABASE_USERNAME}
+ * #password: ${JDBC_DATABASE_PASSWORD}
+ * #url: ${JDBC_DATABASE_URL}
+
 
 ## Account
 login: Admin
