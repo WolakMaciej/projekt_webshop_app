@@ -67,7 +67,14 @@ To use local database in application.yml file uncomment:
  * #username: ${JDBC_DATABASE_USERNAME}
  * #password: ${JDBC_DATABASE_PASSWORD}
  * #url: ${JDBC_DATABASE_URL}
-
+ 
+To use postgreSQL database in application.yml file comment:
+ * #url: "jdbc:h2:file:./data/webshopDb"
+ 
+ and comment:
+ * username: ${JDBC_DATABASE_USERNAME}
+ * password: ${JDBC_DATABASE_PASSWORD}
+ * url: ${JDBC_DATABASE_URL}
 
 ## Account
 login: Admin
