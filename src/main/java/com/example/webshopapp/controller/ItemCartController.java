@@ -13,7 +13,7 @@ import javax.persistence.EntityNotFoundException;
 import javax.validation.Valid;
 import java.util.List;
 
-@CrossOrigin("*")
+@CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping("/")
 public class ItemCartController {
