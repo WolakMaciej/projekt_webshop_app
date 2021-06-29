@@ -17,7 +17,7 @@ import javax.persistence.EntityNotFoundException;
 import javax.validation.Valid;
 import java.util.List;
 
-@CrossOrigin("http://localhost:4200")
+
 @RestController
 @RequestMapping("/")
 public class UserController {
